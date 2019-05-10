@@ -1,0 +1,17 @@
+{
+    "name": "Gugu",
+    "short_name": "Gugu",
+    "description": "Gugu is a lazy animal",
+    "lang": "en-IN",
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#808080",
+    "icons": [
+      {
+        "src": "https://d1j8pt39hxlh3d.cloudfront.net/emoji/emojione/4.5/png/128/1f913.png?119038208",
+        "sizes": "192x192",
+        "type": "png"
+      }
+    ],
+    "background_color": "#e59e9e"
+  }
