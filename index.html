@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
     <link rel="manifest" href="manifest.json">
+
+    <link rel="icon" sizes="128x128" href="pwa0-128.png">
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Gugu">
-    <meta name="apple-mobile-web-app-title" content="Gugu">
-    <meta name="theme-color" content="#808080">
-    <meta name="msapplication-navbutton-color" content="#808080">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="msapplication-starturl" content="/">
+    <meta name="application-name" content="PWA from scratch">
+    <meta name="apple-mobile-web-app-title" content="PWA from scratch">
+    <meta name="msapplication-starturl" content="/index.html">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="png" sizes="192x192" href="https://d1j8pt39hxlh3d.cloudfront.net/emoji/emojione/4.5/png/128/1f913.png?119038208">
-    <link rel="apple-touch-icon" type="png" sizes="192x192" href="https://d1j8pt39hxlh3d.cloudfront.net/emoji/emojione/4.5/png/128/1f913.png?119038208">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Gugu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js"></script>
+
 </head>
-<body>
-    <center>
-        <input type="text">
-        <button>Hello Click me </button>
-    </center>
+
+<body onload="onLoadAsync()">
+    <div>
+        <input id="anime_id_input" placeholder="Anime id" />
+        <button id="ok_button" onclick="onOkButtonClickAsync()">OK</button>
+    </div>
+    <div id="main_anime">
+    </div>
+    <h1>History</h1>
+    <div id="history">
+
+    </div>
 </body>
+
 </html>
