@@ -1,17 +1,32 @@
 {
-    "name": "Gugu",
-    "short_name": "Gugu",
-    "description": "Gugu is a lazy animal",
-    "lang": "en-IN",
-    "start_url": "/",
-    "display": "fullscreen",
-    "theme_color": "#808080",
-    "icons": [
-      {
-        "src": "https://d1j8pt39hxlh3d.cloudfront.net/emoji/emojione/4.5/png/128/1f913.png?119038208",
-        "sizes": "192x192",
-        "type": "png"
-      }
-    ],
-    "background_color": "#e59e9e"
-  }
+  "name": "Gugu",
+  "short_name": "Gugu",
+  "icons": [{
+    "src": "icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "gcm_sender_id": "103953800507",
+  "display": "standalone",
+  "background_color": "#FF9800",
+  "theme_color": "#FF9800"
+}
